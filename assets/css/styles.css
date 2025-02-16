@@ -93,7 +93,7 @@ a {
   margin-left: 18px;
 }
 
-/* ============= Hero ================ */
+/* Hero */
 .hero .info {
   margin-top: 130px;
   width: 51%;
@@ -131,4 +131,44 @@ a {
   position: absolute;
   bottom: 0;
   right: calc((100vw - 1110px) / 2 - 100px);
+}
+
+/* ======================= Clients ==================== */
+.clients {
+  margin-top: 79px;
+}
+
+.clients .content {
+  padding-top: 43px;
+  padding-bottom: 41px;
+}
+
+.clients .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients .row-desc {
+  margin-top: 18px;
+}
+
+.clients .desc {
+  color: #7d8589;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+.clients .images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 96px;
+}
+
+.clients .images img:nth-child(3) {
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
+  padding: 31px 41px 23px;
 }
