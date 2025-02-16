@@ -63,6 +63,9 @@ a {
 
 .navbar ul {
   display: flex;
+  color: #4f5361;
+  font-size: 1.4rem;
+  font-weight: 500;
 }
 
 .navbar ul li {
