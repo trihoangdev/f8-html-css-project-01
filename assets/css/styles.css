@@ -253,3 +253,36 @@ a {
   min-width: 170px;
   margin-bottom: 79px;
 }
+
+/* ======================= Featured ==================== */
+.featured {
+  margin-top: 41px;
+}
+
+.featured .content {
+  margin-top: 110px;
+}
+
+.featured .title {
+  color: #000339;
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+.featured .row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.featured .link {
+  display: flex;
+  align-items: center;
+  color: #0689ff;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.featured .link .arrow {
+  margin-left: 8px;
+}
