@@ -183,6 +183,7 @@ a {
 /* ======================= Guides ==================== */
 .guides {
   margin-top: 40px;
+  padding: 79px 0;
 }
 
 .guides .sub-title {
@@ -257,7 +258,6 @@ a {
 
 .guide-cta .btn {
   min-width: 170px;
-  margin-bottom: 79px;
 }
 
 /* ======================= Featured ==================== */
@@ -265,10 +265,6 @@ a {
   margin-top: 41px;
   padding: 110px 0;
   background: #f5fafe;
-}
-
-.featured .content {
-  margin-top: 110px;
 }
 
 .featured .title {
