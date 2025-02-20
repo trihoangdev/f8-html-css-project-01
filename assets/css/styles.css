@@ -354,3 +354,63 @@ a {
   font-size: 1.4rem;
   color: #4d4d52;
 }
+
+/* ======================= Stats ==================== */
+.stats {
+  margin-top: 75px;
+  padding: 50px 0;
+}
+
+.stats .content {
+  width: 1017px;
+}
+
+.stats .row {
+  display: flex;
+}
+
+.stats .img-block,
+.stats .info {
+  width: 50%;
+}
+
+.stats .img-block img {
+  display: block;
+  width: 400px;
+  height: 460px;
+  border-radius: 12px;
+  object-fit: cover;
+  margin-left: auto;
+}
+
+.stats .info {
+  padding: 79px 0 0 165px;
+}
+
+.stats .info .title {
+  position: relative;
+  color: #000339;
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 1.28;
+  width: 269px;
+}
+
+.stats .info .title::before {
+  position: absolute;
+  top: -10px;
+  content: "";
+  width: 41px;
+  height: 4px;
+  border-radius: 12px;
+  background: #000339;
+}
+
+.stats .info .desc {
+  margin-top: 20px;
+  width: 309px;
+  color: #5a6473;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.88;
+}
