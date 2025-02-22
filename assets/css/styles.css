@@ -472,3 +472,22 @@ a {
   font-weight: 400;
   line-height: 1.88;
 }
+
+.stats .row-qty {
+  justify-content: space-between;
+  margin-top: 110px;
+  padding: 0 32px;
+}
+
+.stats .qty {
+  color: #000;
+  font-size: 6.4rem;
+  font-weight: 600;
+}
+
+.stats .qty-desc {
+  margin-top: 22px;
+  color: #7b8087;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
