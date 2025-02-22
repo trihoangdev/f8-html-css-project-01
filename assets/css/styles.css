@@ -437,6 +437,10 @@ a {
   border-radius: 50%;
 }
 
+.stats .avatar:first-child {
+  margin-left: 0px;
+}
+
 .stats .info {
   padding: 79px 0 0 165px;
 }
