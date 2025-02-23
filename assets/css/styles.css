@@ -491,3 +491,51 @@ a {
   font-size: 1.8rem;
   font-weight: 500;
 }
+
+/* ======================= Subcriptions ==================== */
+.subcriptions {
+  margin-top: 90px;
+}
+
+.subcriptions .body {
+  display: flex;
+  position: relative;
+  height: 370px;
+  align-items: center;
+  border-radius: 20px;
+  background: #063183;
+}
+
+.subcriptions .body .info {
+  padding: 0 80px;
+}
+
+.subcriptions .title {
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.subcriptions .desc {
+  margin-top: 15px;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.88;
+}
+
+.subcriptions .btn {
+  margin-top: 20px;
+  min-width: 151px;
+  background: #fff;
+  color: #002366;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.subcriptions img {
+  position: absolute;
+  bottom: 0;
+  right: 211px;
+}
