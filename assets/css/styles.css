@@ -11,6 +11,7 @@ html {
 }
 
 body {
+  scroll-behavior: smooth;
   font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
   color: #4f5361;
